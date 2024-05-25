@@ -7,5 +7,3 @@ function countLike1() {
 }
 
 btnLike1.addEventListener("click", countLike1)
-
-
