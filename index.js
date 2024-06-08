@@ -44,6 +44,7 @@ const commentbox = document.getElementById("commentbox")
 
 function submitComment(){
   commentbox.textComment += comment.value.toString() + "\n"
+  submitbox.textSubmit += comment.value.toString() + "\n"
   comment.value="";
 }
 submit.addEventLostener("click",submitComment)
