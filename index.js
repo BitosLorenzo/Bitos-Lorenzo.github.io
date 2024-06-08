@@ -39,9 +39,10 @@ function countLike4() {
 btnLike4.addEventListener("click", countLike4)
 
 const submit = document.getElementById("submit")
+const submit = document.getElementById("submitbox")
 const comment = document.getElementById("comment")
 const commentbox = document.getElementById("commentbox")
 function submitComment(){
   commentbox.textComment += comment.value.toString() + "\n"
 }
-submit.addEventLostener("click",submitCommentbox)
+submit.addEventLostener("click",submitComment)
