@@ -47,4 +47,3 @@ function submitComment(){
   comment.value="";
 }
 submit.addEventLostener("click",submitComment)
-submit.value="";
